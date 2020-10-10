@@ -26,5 +26,5 @@ It is working like this:
 4. After locking, the motor pulls the rubber band to the perfect length by time (data collected by my own experiment :P), and stop the motor when it has done(Told by another sensor).
 5. Finally, the robot is ready for loading!  
 
-# Thanks for All My Team Members, Cannot Win the Reward Without You!
+# Thanks to All My Team Members, Cannot Win the Reward Without You!
 ![Reward](/images/TheReward.jpg)  
