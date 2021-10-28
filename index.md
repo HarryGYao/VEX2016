@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+# VEX 2016: Nothing But Net
+![VEX2016](/images/Game.png)  
+This is my source code for VEX Robot Championship in 2016. You can find the game there :[Nothing But Net](https://www.roboticseducation.org/vrc-nothing-but-net/).  
+Also, you can find my team there: [7627A](https://www.robotevents.com/teams/VRC/7627A), I am serving as the main programmer in VRC 2015-2016: Nothing But Net (Yes, the best score in the team history!).  
+Written in *easyC V4 for Cortex*. They are providing [V6](https://shop.intelitek.com/easyC-V6-for-IQEDR--Perpetual_p_122.html) now, check it out.
+## About the Robot  
+![OurRobot](/images/TheRobot.jpg)  
+Our robot is a catapult with one extra shooting device: a firing pin to handling the long-range shooting.
+## The Basic Structure
+Since this is my first "meaningful" program, it contains a lot of *BAD* habit. 
+**Please forgive me naming the variable by pinyin, commenting by Chinese, and even using the unmeaningful word "hhh", I was young :P**  
+The main() contains three functions: Initialize(), Autonomouse() and OperatorControl().
+## Initialize():  
+Initialize() did **NOTHING**. Yes, I do not know what is Initialize at the time I write this program, so I left it blank.
+## Autonomouse():  
+In the Autonomous stage, the robot operated **ONLY** by this function, with no player control.  
+It basically does two things: the firing pin shoots the preloaded balls and moves to the center of the game field.
+## OperatorControl():
+Here is the play control stage, since it's a catapult, I write a special function for loading the ball.  
+zidonglaxixan(): means automatic pull the rubber band to providing the force of shooting.  
+The robot has two sensors for detecting the loading stage.
+It is working like this:
+1. Checking if the robot is already for loading. If so, start loading balls and waiting for the play to shoot.
+2. If not, stoping the loading function, or the robot will be useless.
+3. Then the robot starts to lock the loading plane, or the loading plane will rise when we try to pull the rubber band. (Remember it is a catapult). One sensor will let the robot know the loading plane is locked.
+4. After locking, the motor pulls the rubber band to the perfect length by time (data collected by my own experiment :P), and stop the motor when it has done(Told by another sensor).
+5. Finally, the robot is ready for loading!  
 
-You can use the [editor on GitHub](https://github.com/HarryGYao/VEX2016/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HarryGYao/VEX2016/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Thanks to All My Team Members, Cannot Win the Reward Without You!
+![Reward](/images/TheReward.jpg)  
