@@ -1,5 +1,4 @@
 # VEX 2016: Nothing But Net
-![VEX2016](/images/Game.png)  
 This is my source code for VEX Robot Championship in 2016. You can find the game there :[Nothing But Net](https://www.roboticseducation.org/vrc-nothing-but-net/).  
 Also, you can find my team there: [7627A](https://www.robotevents.com/teams/VRC/7627A), I am serving as the main programmer in VRC 2015-2016: Nothing But Net (Yes, the best score in the team history!).  
 Written in *easyC V4 for Cortex*. They are providing [V6](https://shop.intelitek.com/easyC-V6-for-IQEDR--Perpetual_p_122.html) now, check it out.
